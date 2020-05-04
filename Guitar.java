@@ -10,7 +10,7 @@ public class Guitar {
   }
 
   //getters
-  public Stirng getSerialNumber() {
+  public String getSerialNumber() {
     return serialNumber;
   }
 
