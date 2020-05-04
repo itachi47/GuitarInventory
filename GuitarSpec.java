@@ -38,6 +38,10 @@ public class GuitarSpec{
     return builder;
   }
 
+  public Type getType() {
+    return type;
+  }
+
   public String getModel(){
     return model;
   }
@@ -46,7 +50,7 @@ public class GuitarSpec{
     return numStrings;
   }
 
-  public wood getBackWood(){
+  public Wood getBackWood(){
     return backWood;
   }
 
